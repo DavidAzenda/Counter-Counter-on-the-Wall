@@ -1,0 +1,75 @@
+.App {
+  background-color: rgb(239, 239, 239);
+  
+}
+
+.App-button2{
+  background-color:rgb(15, 215, 15);
+  font-size: 15px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.731);
+  height: 40px;
+  width: 100px;
+}
+
+.App-button3{
+  background-color:lightcoral;
+  border-radius: 8px;
+  font-size: 15px;
+  height: 40px;
+  width: 100px;
+  
+}
+.App-button4{
+  background-color:lightblue;
+  border-radius: 8px;
+  font-size: 15px;
+  height: 40px;
+  width: 100px;
+}
+
+.App-input{
+  text-align:start;
+  font-size: 15px;
+  height: 34px;
+  width: 250px;
+  
+}
+
+/* .App-h1{
+  text-align: left;
+  width: min-content;
+  font-size: 50px ;
+
+} */
+
+.App-grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 42px 42px;
+  padding: 10px;
+  grid-gap: 0cm;
+  
+}
+.App-grid-item1 {
+ 
+  text-align:justify; 
+  grid-column: 1;
+  grid-row: 1;
+  
+}
+.App-grid-item2 {
+  
+  text-align: left;
+  grid-column: 2/2;
+  grid-row: 1/span 2;
+  
+}
+.App-grid-item3 {
+  
+  text-align: justify;
+  grid-column: 1;
+  grid-row: 2;
+  
+}
+
